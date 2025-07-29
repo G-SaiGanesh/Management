@@ -17,7 +17,7 @@ import com.example.demo.Model.Order;
 import com.example.demo.service.OrderService;
 
 @RestController
-@RequestMapping("/order")
+@RequestMapping("/order" )
 public class OrderController {
 	
 	@Autowired
