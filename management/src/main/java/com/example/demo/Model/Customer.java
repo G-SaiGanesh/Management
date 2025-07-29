@@ -52,7 +52,7 @@ public class Customer {
 			this.email = email;
 		}
 		public String getAddress() {
-			return address;
+			return address ;
 		}
 		public void setAddress(String address) {
 			this.address = address;

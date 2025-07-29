@@ -12,7 +12,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name="MenuDao")
-public class Menu {
+public class Menu  {
 	
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

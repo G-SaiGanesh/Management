@@ -26,7 +26,7 @@ public class OrderService {
 		Double total = 0.0;
 		 List<Menu> actualMenus = new ArrayList<>();
 		
-		for (Menu item : order.getMenuitems()) {
+		for (Menu item : order.getMenuitems())  {
 			
 			Menu menu =menudao.findById(item.getId()).orElse(null);
 			

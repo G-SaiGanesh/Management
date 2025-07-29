@@ -85,7 +85,7 @@ public class Order {
 	}
 
 	public String getStatus() {
-		return Status;
+		return  Status;
 	}
 
 	public void setStatus(String status) {
