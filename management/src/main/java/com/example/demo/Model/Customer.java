@@ -1,5 +1,7 @@
 package com.example.demo.Model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -18,6 +20,7 @@ public class Customer {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 	private Long id;
 
 	    private String name;
